@@ -1,0 +1,50 @@
+.about{
+    max-height: 1008px;
+    padding: 145px 0 144px 0;
+    &__item{
+        display: flex;
+        &__second{
+            margin-top: 144px;
+        }
+        &__wrapper{
+            margin-left: 100px;
+            &__second{
+                margin-left: 0;
+                margin-right: 99px;
+            }
+        }
+        &__title{
+            
+            font-family: OpenSans;
+            font-size: 25px;
+            font-weight: bold;
+            text-align: left;
+            color: #333333;
+            &__second{
+                text-align: right;
+            }
+        }
+        &__descr{
+            margin-top: 52px;
+            object-fit: contain;
+            font-family: Raleway;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.79;
+            letter-spacing: normal;
+            text-align: left;
+            color: #333333;
+            &__second{
+                text-align: right;
+            }
+            
+        }
+        &__video{
+            max-width: 380px;
+            max-height: 288px;
+        }
+    }
+   
+}

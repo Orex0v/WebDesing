@@ -1,0 +1,69 @@
+.project{
+    min-height: 1296px;
+    padding: 73px 0 144px 0;
+    -webkit-box-shadow: inset 0px 8px 14px -4px rgba(0,0,0,0.69);
+    -moz-box-shadow: inset 0px 8px 14px -4px rgba(0,0,0,0.69);
+    box-shadow: inset 0px 8px 14px -4px rgba(0,0,0,0.69);
+    background: #ebebeb;
+    &__title{
+        font-family: OpenSans;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        color: #333333;
+    }
+    &__nav{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 485px;
+        margin-top: 47px;
+        &__item{
+            a{
+            font-family: Raleway;
+            font-size: 14px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.86;
+            letter-spacing: normal;
+            text-align: center;
+            color: #333333;
+            text-decoration: none;
+            
+            &:hover{
+                border-bottom: 2px solid #333333;
+            }
+            }
+          }
+        }
+        &__cards{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 36px;
+            &__item{
+                margin-bottom: 66px;
+                &__title{
+                    max-width: 206px;
+                    margin-top: 35px;
+                    font-family: OpenSans;
+                    font-size: 16px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.63;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #333333;
+                }
+            }
+        }
+        &__bottom{
+            text-align: center;
+            border: 1px solid black;
+            }
+
+    }
+    
