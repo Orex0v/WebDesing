@@ -1,0 +1,37 @@
+.focus{
+    min-height: 523px;
+    padding: 92px 0 147px 0;
+    &__title{
+        text-align: center;
+        font-family: OpenSans;
+        font-size: 25px;
+        color: #333333;
+    }
+    &__cards{
+        margin-top: 53px;
+        display: flex;
+        justify-content: space-between;
+        &__item{
+            max-width: 217px;
+            &__icon{
+                display: block;
+                margin: 0 auto;
+            }
+            &__title{
+                    margin-top: 43px;
+                    font-family: OpenSans;
+                    font-size: 16px;
+                    font-weight: bold;
+                    text-align: center;
+                    color: #333333;
+            }
+            &__descr{
+                margin-top: 23px;
+                font-family: Raleway;
+                font-size: 14px;
+                text-align: center;
+                color: #333333;
+            }
+        }
+    }
+}

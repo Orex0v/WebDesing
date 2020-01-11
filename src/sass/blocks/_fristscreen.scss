@@ -1,0 +1,40 @@
+.fristscreen{
+    padding: 65px 0 644px 0;
+    min-height: 917px;
+    background: url(/img/fristscreenBg.jpg) center (center/cover) no-repeat;
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        &__navbar{
+            display: flex;
+            list-style: none;
+            &__nav{
+                margin-top: 6px;
+                margin-right: 29px;
+                font-family: Raleway;
+                font-size: 14px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                text-align: right;
+                color: #ffffff;
+                cursor: pointer;
+                &:last-child{
+                    margin-right: 0;
+                }
+                &:hover{
+                    border-bottom: 1px solid white;
+                    border-spacing: 60px;
+                }
+            }
+        }
+    }
+    &__title{
+        margin-top: 107px;
+        margin-left: 85px;
+        font-family: 'Fjalla One';
+        font-size: 25px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+}
