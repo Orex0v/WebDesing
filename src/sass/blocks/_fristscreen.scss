@@ -9,16 +9,20 @@
             display: flex;
             list-style: none;
             &__nav{
+                
                 margin-top: 6px;
                 margin-right: 29px;
-                font-family: Raleway;
-                font-size: 14px;
-                font-weight: normal;
-                font-stretch: normal;
-                font-style: normal;
-                text-align: right;
-                color: #ffffff;
-                cursor: pointer;
+                a{
+                    font-family: Raleway;
+                    font-size: 14px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    text-align: right;
+                    color: #ffffff;
+                    cursor: pointer;
+                    text-decoration: none;
+                }
                 &:last-child{
                     margin-right: 0;
                 }
