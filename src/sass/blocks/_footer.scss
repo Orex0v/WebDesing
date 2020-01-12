@@ -1,0 +1,88 @@
+.footer{
+    background: #333333;
+    min-height: 241px;
+    padding: 35px 0 85px 0;
+    &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    }
+    &__links{
+        &__list{
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+            width: 197px;
+            justify-content: space-around;
+            a{
+            font-family: Raleway;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 3.14;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+            text-decoration: none;
+            cursor: pointer;
+            }
+        }
+    }
+    &__contact{
+        display: flex;
+        flex-direction: column;
+        width: 221px;
+        &__adress{
+            margin-top: 10px;
+            
+            font-family: Raleway;
+            font-size: 12px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2.08;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+        }
+        &__mail{
+            margin-top: 38px;
+            font-family: Raleway;
+            font-size: 16px;
+            line-height: 1.63;
+            text-align: left;
+            color: #ffffff;
+        }
+        &__phone{
+            text-decoration: none;
+            font-family: OpenSans;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: left;
+            color: #ffffff;
+        }
+        &__icon{
+            margin-right: 30px;
+        }
+    }
+    &__social{
+        width: 220px;
+        &__title{
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            margin-top: 10px;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+        }
+        &__icons{
+            margin-top: 24px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+}
